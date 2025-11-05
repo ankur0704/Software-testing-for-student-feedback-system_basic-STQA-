@@ -1,0 +1,98 @@
+
+============================================================
+Black Box Test Run on: 2025-11-05 15:45:07
+============================================================
+test_add_feedback_invalid_rating (__main__.TestBlackBox.test_add_feedback_invalid_rating) ... ok
+test_add_feedback_valid (__main__.TestBlackBox.test_add_feedback_valid) ... ok
+test_home_page (__main__.TestBlackBox.test_home_page) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.020s
+
+OK
+Ran 3 tests
+Failures: 0 | Errors: 0
+------------------------------------------------------------
+
+
+============================================================
+Black Box Test Run on: 2025-11-05 15:54:55
+============================================================
+test_add_feedback_invalid_rating (__main__.TestBlackBox.test_add_feedback_invalid_rating) ... ok
+test_add_feedback_valid (__main__.TestBlackBox.test_add_feedback_valid) ... ok
+test_home_page (__main__.TestBlackBox.test_home_page) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.018s
+
+OK
+Ran 3 tests
+Failures: 0 | Errors: 0
+------------------------------------------------------------
+
+
+============================================================
+Black Box Test Run on: 2025-11-05 17:28:53
+============================================================
+test_add_feedback_invalid_rating (__main__.TestBlackBox.test_add_feedback_invalid_rating) ... ok
+test_add_feedback_valid (__main__.TestBlackBox.test_add_feedback_valid) ... FAIL
+test_home_page (__main__.TestBlackBox.test_home_page) ... ok
+
+======================================================================
+FAIL: test_add_feedback_valid (__main__.TestBlackBox.test_add_feedback_valid)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\VENU SONAVANE\Desktop\LP4\STQA_mini-project\test_blackbox.py", line 19, in test_add_feedback_valid
+    self.assertIn(b"Feedback not added", response.data)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: b'Feedback not added' not found in b'{"message":"Feedback added successfully"}\n'
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.022s
+
+FAILED (failures=1)
+Ran 3 tests
+Failures: 1 | Errors: 0
+------------------------------------------------------------
+
+
+============================================================
+Black Box Test Run on: 2025-11-05 17:29:16
+============================================================
+test_add_feedback_invalid_rating (__main__.TestBlackBox.test_add_feedback_invalid_rating) ... ok
+test_add_feedback_valid (__main__.TestBlackBox.test_add_feedback_valid) ... FAIL
+test_home_page (__main__.TestBlackBox.test_home_page) ... ok
+
+======================================================================
+FAIL: test_add_feedback_valid (__main__.TestBlackBox.test_add_feedback_valid)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\VENU SONAVANE\Desktop\LP4\STQA_mini-project\test_blackbox.py", line 19, in test_add_feedback_valid
+    self.assertIn(b"Feedback not added", response.data)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: b'Feedback not added' not found in b'{"message":"Feedback added successfully"}\n'
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.018s
+
+FAILED (failures=1)
+Ran 3 tests
+Failures: 1 | Errors: 0
+------------------------------------------------------------
+
+
+============================================================
+Black Box Test Run on: 2025-11-05 17:29:23
+============================================================
+test_add_feedback_invalid_rating (__main__.TestBlackBox.test_add_feedback_invalid_rating) ... ok
+test_add_feedback_valid (__main__.TestBlackBox.test_add_feedback_valid) ... ok
+test_home_page (__main__.TestBlackBox.test_home_page) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.020s
+
+OK
+Ran 3 tests
+Failures: 0 | Errors: 0
+------------------------------------------------------------
+

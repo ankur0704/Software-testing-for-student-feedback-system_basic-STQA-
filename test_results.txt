@@ -1,0 +1,48 @@
+
+============================================================
+Test Run on: 2025-11-05 15:42:43
+============================================================
+test_data_retrieval (__main__.TestWhiteBox.test_data_retrieval) ... ok
+test_invalid_rating (__main__.TestWhiteBox.test_invalid_rating) ... ok
+test_rating_boundary (__main__.TestWhiteBox.test_rating_boundary) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.029s
+
+OK
+Ran 3 tests
+Failures: 0 | Errors: 0
+------------------------------------------------------------
+
+
+============================================================
+Test Run on: 2025-11-05 15:55:02
+============================================================
+test_data_retrieval (__main__.TestWhiteBox.test_data_retrieval) ... ok
+test_invalid_rating (__main__.TestWhiteBox.test_invalid_rating) ... ok
+test_rating_boundary (__main__.TestWhiteBox.test_rating_boundary) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.032s
+
+OK
+Ran 3 tests
+Failures: 0 | Errors: 0
+------------------------------------------------------------
+
+
+============================================================
+Test Run on: 2025-11-05 16:03:07
+============================================================
+test_data_retrieval (__main__.TestWhiteBox.test_data_retrieval) ... ok
+test_invalid_rating (__main__.TestWhiteBox.test_invalid_rating) ... ok
+test_rating_boundary (__main__.TestWhiteBox.test_rating_boundary) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.032s
+
+OK
+Ran 3 tests
+Failures: 0 | Errors: 0
+------------------------------------------------------------
+
