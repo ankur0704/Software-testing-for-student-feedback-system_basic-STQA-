@@ -73,6 +73,49 @@ student_feedback_system/
 ├── feedback.db ← SQLite database
 └── templates/ ← (optional HTML templates)
 ```
+# 🧱 Summary of Flow
+# 🧍 User’s Journey:
+
+- User (or Postman) sends a POST to /add_feedback.
+
+- app.py receives JSON → passes to models.add_feedback().
+
+- models.py inserts it into feedback.db.
+
+- app.py returns success response as JSON.
+
+- Later, a user sends a GET request to /feedback.
+
+- app.py calls models.get_all_feedback().
+
+- Data is fetched from the DB and returned as JSON.
+
+## Internal work flow: 
+        +---------------------------+
+        |      Web / Postman        |
+        | (Sends API Requests)      |
+        +------------+--------------+
+                     |
+                     v
+            +--------+--------+
+            |     app.py      |
+            | (Handles routes |
+            |   & responses)  |
+            +--------+--------+
+                     |
+                     v
+            +--------+--------+
+            |    models.py    |
+            | (DB logic &     |
+            |  CRUD ops)      |
+            +--------+--------+
+                     |
+                     v
+            +-----------------+
+            |  feedback.db    |
+            | (SQLite Table)  |
+            +-----------------+
+
 
 
 

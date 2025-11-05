@@ -1,9 +1,11 @@
+# database and logic layer
+
 import sqlite3
 
-def get_connection():
+def get_connection():              # database connection helper
     return sqlite3.connect('feedback.db')
 
-def init_db():
+def init_db():       # initialize the database
     conn = get_connection()
     cur = conn.cursor()
     cur.execute('''
@@ -18,7 +20,7 @@ def init_db():
     conn.commit()
     conn.close()
 
-def add_feedback(student_name, subject, rating, comments):
+def add_feedback(student_name, subject, rating, comments):   # add new feedback record into the table
     if not (1 <= rating <= 5):
         return {"error": "Rating must be between 1 and 5"}
     conn = get_connection()
@@ -29,7 +31,7 @@ def add_feedback(student_name, subject, rating, comments):
     conn.close()
     return {"message": "Feedback added successfully"}
 
-def get_all_feedback():
+def get_all_feedback():           # Retrieve all feedback
     conn = get_connection()
     cur = conn.cursor()
     cur.execute("SELECT * FROM feedback")
