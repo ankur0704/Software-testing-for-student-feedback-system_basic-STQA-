@@ -61,16 +61,18 @@ Comments
 - Database auto-initializes when you first run app.py or test_whitebox.py.
 
 
+```
 student_feedback_system/
 │
-├── app.py          ← Flask web app (API endpoints)
-├── models.py       ← Core logic + database handling
+├── app.py ← Flask web app (API endpoints)
+├── models.py ← Core logic + database handling
 │
-├── whitebox.py     ← Tests internal code logic (directly calls models.py)
-├── blackbox.py     ← Tests endpoints (indirectly calls app.py)
+├── whitebox.py ← Tests internal code logic (directly calls models.py)
+├── blackbox.py ← Tests endpoints (indirectly calls app.py)
 │
-├── feedback.db     ← SQLite database
-└── templates/      ← (optional HTML templates)
+├── feedback.db ← SQLite database
+└── templates/ ← (optional HTML templates)
+```
 
 
 
